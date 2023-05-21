@@ -1,12 +1,12 @@
 {
   "applications": {
     "gecko": {
-      "id": "selecttab@braniecki.net",
+      "id": "ctrltab@thesquareplanet.com",
       "strict_min_version": "48.0"
     }
   },
   "manifest_version": 2,
-  "name": "SelectTab Gnome Shortcut Override",
+  "name": "Better Ctrl-Tab",
   "version": "1.0",
 
   "description": "An extension that overrides the default select-tab modifier key.",
@@ -50,7 +50,7 @@
     },
     "selectTab9": {
       "suggested_key": { "default": "Ctrl+9" },
-      "description": "Activate Tab 9"
+      "description": "Activate Last Tab"
     }
   }
 }

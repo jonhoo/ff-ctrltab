@@ -4,5 +4,8 @@ browser.commands.onCommand.addListener(async (command) => {
   if (tabs.length < num) {
     return;
   }
+  if (num == 8) {
+    num = tabs.length - 1;
+  }
   browser.tabs.update(tabs[num].id, {active: true});
 });
